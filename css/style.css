@@ -1,0 +1,304 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	overflow-x:hidden;
+	font-family: 'open sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing:antialiased !important; 
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+a{
+	text-decoration:none;
+	transition: all 500ms ease-in-out;
+}
+a:hover,
+a:active{
+	text-decoration: none;
+}
+h1,
+h2,
+h4{
+	font-family: 'pt sans narrow', Arial , sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+p{
+	font-size:15px;
+	line-height: 21px;
+}
+.btn{
+	transition: all 300ms ease-in-out;
+	text-transform: uppercase;
+	font-weight:500 !important;
+}
+.btn:hover{
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important;
+}
+/*NAVIGATION*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.slider{
+	text-align: center;
+	margin-top: 20px;
+}
+.slider h2{
+	font-weight: 700;
+	color:black;
+}
+.slider img{
+	
+	border-radius: 150px;
+	background-color: silver;
+	width:150px;
+	height:150px;
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    -webkit-border-radius: 150px;
+ -moz-border-radius: 150px;
+
+}
+.slider img:hover{
+	-webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+/*second section*/
+@media(max-width: 768px){
+	.second_section{
+		text-align: center;
+	}
+}
+.second_section{
+	background-color:#343538;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding:50px;
+	width:100%;
+}
+.second_section h1{
+	font-weight: 800;
+	color:white;
+	margin-bottom: 20px;
+}
+.second_section span{
+	font-weight: 500;
+	color:#5e5e5e;
+}
+.second_section hr{
+	width:30px;
+	border:1px solid #7FFFD4;
+}
+.second_section p{
+	color:white;
+}
+.second_section button{
+	border-radius: 0px;
+	background: #39f;
+	color:white;
+	margin-top: 20px;
+	font-weight: 700;
+}
+.supp{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.supp i{
+	font-size: 40px;
+	padding:20px;
+	border-radius: 50%;
+	background-color: white;
+	color:#39f;
+}
+.supp h4{
+	color:white;
+	font-weight: 700px;
+	margin:20px 0px 20px;
+}
+.supp p{
+	color:white;
+}
+.supp a{
+	margin-top: 20px !important;
+	color:#39f;
+	font-weight: 500;
+	margin-bottom: 30px;
+	padding-bottom:30px;
+
+}
+.supp a:hover{
+	margin-top: 2px;
+	color:#7FFFD4;
+	font-weight: 500;
+}
+/*THIS IS THE STYLE OF THE THIRD SECTION*/
+.third{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.third h2{
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.third i{
+	color:#39f;
+	font-size: 30px;
+}
+.third i:before,
+.third i:after {
+  background-color: #7FFFD4;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.third i:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.third i:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.third p{
+	color:#343538;
+	font-weight: 600;
+}
+.third div h4{
+	position: absolute;
+	bottom: 8px;
+	left: 30px;
+	color:white;
+	font-weight: 600;
+}
+.inner{
+	position: absolute;
+	top:20px;
+	left: 30px;
+	border-radius: 0px !important;
+	background-color: lightgreen !important;
+	border:1px solid lightgreen !important;
+	color:white;
+}
+.bottom_button{
+	background-color:lightgreen !important;
+	border-radius: 0px !important;
+	border:1px solid lightgreen !important;
+	width :190px;
+	margin-top:30px;
+	font-weight: bold !important;
+
+}
+/*the section four start from here*/
+.four{
+	margin-top: 60px !important;
+	margin-bottom: 30px;
+}
+.four hr{
+	border:2px solid #7FFFD4;
+	margin-bottom: 50px;
+}
+.four i{
+	font-size: 70px;
+	color:#39f;
+	margin:15px;
+
+}
+.four h1{
+	font-weight: 600;
+	color:black;
+}
+.four p{
+	color:black;
+}
+@media(max-width: 768px){
+	.four h1{
+		font-size:30px;
+	}
+}
+.last {
+	text-align: center;
+}
+.last button {
+	text-align: center;
+	border-radius: 0px;
+	margin-top: 20px;
+	background-color:#39;
+	border:1px solid #39f;
+	font-weight: bold !important;
+}
+.item {
+            width: 100%;
+           
+            
+        }
+        .owl-nav {
+            width: 210px;
+            height: 50px;
+            margin: 0 auto;
+            padding-top: 10px;
+
+        }
+        .customNextBtn {
+            width: 100px;
+            height: 100%;
+            float: left;
+            font-size: 20px;
+            color: black;
+            position: absolute;
+            right: -102px;
+            top:100px;
+        }
+        .customPrevBtn{
+            width: 100px;
+            height: 100%;
+            float: left;
+            font-size: 20px;
+            color: black;
+            position: absolute;
+            left: -102px;
+            top:100px;
+        }
+
+
+
+@media(max-width: 768px){
+#coursal{
+		margin-left: 10px;
+}
+
+
+
+
+
+
