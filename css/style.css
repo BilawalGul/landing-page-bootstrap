@@ -55,7 +55,6 @@ html {
 img {
   width: 100%;
   height: auto;
-  padding: 5px;
 }
 
 h2 {
@@ -299,6 +298,12 @@ h2 {
 
 
 
+#owl-demo-top>.item>img{
+	width: 100%;
+	height: auto
+}
 
-
-
+.navbar{
+	margin-bottom: 0px;
+	border-radius: 0px;
+}

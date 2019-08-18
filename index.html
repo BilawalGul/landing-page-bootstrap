@@ -22,22 +22,13 @@
     <script type="text/javascript" src="jsco/validation.js"></script> 
 
     <!-- this is for logo -->
-    <link rel="icon" type="image/png" href="image/tea.jpg"/>
-    <script type="text/javascript">
-     $(document).ready(function() {
-        $("#owl-demo").owlCarousel({
-            autoPlay: 3000, //Set AutoPlay to 3 seconds
-            items : 4,
-            itemsDesktop : [1199,3],
-            itemsDesktopSmall : [979,3]
-        });
-    });
-    </script>
+    <link rel="icon" type="image/png" href="image/team.jpg"/>
+    
   </head>
   <body>
   	<!-- header -->
   	<header>
-  		<nav class="navbar navbar-inverse">
+  		<nav class="navbar navbar-inverse" style="border-radius: 0px;margin-bottom: 0px;">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -63,6 +54,16 @@
 		</nav>
   	</header>
   	<!-- header -->
+    <!-- slider top -->
+      <div class="containe-fluid">
+        <div id="owl-demo-top" class="owl-carousel owl-theme">
+          <div class="item"><img src="image/a.jpg" alt="Beautifull Pakistan"></div>
+          <div class="item"><img src="image/b.jpg" alt="Beautifull Pakistan"></div>
+          <div class="item"><img src="image/c.jpg" alt="Beautifull Pakistan"></div>
+          <div class="item"><img src="image/d.jpg" alt="Beautifull Pakistan"></div>
+        </div>
+      </div>
+    <!-- slider top end -->
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -221,6 +222,37 @@
         </div>
     </div>
   </div>
+  <script type="text/javascript">
+     $(document).ready(function() {
+        $("#owl-demo").owlCarousel({
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+            items : 4,
+            itemsDesktop : [1199,3],
+            itemsDesktopSmall : [979,3]
+        });
+    });
+    </script>
+    <script >
+      $(document).ready(function() {
+       
+        $("#owl-demo-top").owlCarousel({
+       
+            navigation : true, // Show next and prev buttons
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem:true
+       
+            // "singleItem:true" is a shortcut for:
+            // items : 1, 
+            // itemsDesktop : false,
+            // itemsDesktopSmall : false,
+            // itemsTablet: false,
+            // itemsMobile : false
+       
+        });
+       
+      });
+    </script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
   </body>
